@@ -1,5 +1,30 @@
 ![alt text](ReaKontrol_v100.png?raw=true)
 
+# Why 
+Forked [brummbrum's](https://github.com/brummbrum) repo at https://github.com/brummbrum/reaKontrol for a couple reasons:
+1. Save a few people time in compiling the binaries for macOS.
+2. Making the binaries available to macOS users who are otherwise turned off from using reaKontrol due to having to compile the binaries.
+
+# Instructions
+1. Go to the [Releases](https://github.com/cheslijones/reaKontrol-macOS/releases).
+2. Download the .zip file.
+3. Unarchive the .zip file which will create a `./UserPlugins` folder.
+4. Copy this folder into your REAPER resource folder:
+  a. Usually in: `~/Library/Application Support/REAPER/`
+  b. Or just go to: `REAPER -> Options -> Show REAPER resource path in explorer/finder...`
+5. Open REAPER (close it and reopen if it is already open).
+6. The "Mixer" on your Komplete Kontrol should be lighting up.
+7. RTFM: https://github.com/brummbrum/reaKontrol/blob/Releases/ReaKontrol_v110_Manual.pdf
+
+Tested on:
+- Mac Studio M2 Max
+- s88 mk2
+
+# Support
+I'm only providing the compiled binaries for macOS and cannot offer any support on the nuts and bolts of [brummbrum's](https://github.com/brummbrum) repo.
+
+---
+
 # ReaKontrol
 - Fork of the excellent ReaKontrol repository originally published by James Teh: https://github.com/jcsteh/reaKontrol
 - Fork Author: brumbear@pacificpeaks
